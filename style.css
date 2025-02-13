@@ -1,0 +1,61 @@
+
+/* 大螢幕 (桌機) */
+@media (min-width: 1200px) {
+    .banner-item {
+        height: 500px;
+    }
+    .adbanner-img {
+        height: 100px;
+    }   
+}
+
+/* 平板 */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .banner-item {
+        height: 300px;
+    }
+    .adbanner-img {
+        height: 100px;
+    }
+}
+
+/* 手機 */
+@media (max-width: 767px) {
+    .banner-item {
+        height: 200px;
+    }
+    .adbanner-img {
+        height: 50px;
+    }
+}
+
+.navbar{
+    background-color: #E9FCFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.nav-img{
+    max-height: 5vh;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: #379BB5;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.adbanner-img {
+    object-fit: cover;
+}
+
+.banklist{
+    background-color: #379BB5;
+}
+
